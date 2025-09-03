@@ -1,0 +1,6 @@
+.fav-icon{ 
+    color: #000; cursor: pointer; 
+}
+.fav-icon.favorita{ 
+    color: #dc3545;
+}
