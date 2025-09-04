@@ -123,8 +123,8 @@ function mostrarPlayer(){
                 <p class="text-center estatisticas"><i class="fa-solid fa-futbol"></i> ${j.gols} | <i class="fa-solid fa-handshake"></i> ${j.assistencias} | <i class="fa-solid fa-calendar"></i> ${j.jogos}</p>
                 <div class="d-flex justify-content-center gap-3">
                   <span class="fav-icon ${j.favorita ? "favorita" : ""}" onclick="toggleFavorita(${index})"><i class="fa-solid fa-heart"></i></span>
-                  <button class="btn btn-warning btn-sm" onclick="editarPlayer(${index})"><i class="fa-solid fa-pen-to-square"></i>Editar</button>
-                  <button class="btn btn-danger btn-sm" onclick="apagarPlayer(${index})"><i class="fa-solid fa-trash"></i>Apagar</button>
+                  <button class="btn btn-success btn-sm" onclick="editarPlayer(${index})"><i class="fa-solid fa-pen-to-square"></i>Editar</button>
+                  <button class="btn btn-success btn-sm" onclick="apagarPlayer(${index})"><i class="fa-solid fa-trash"></i>Apagar</button>
                 </div>
               </div>  
             </div>
