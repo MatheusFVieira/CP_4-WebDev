@@ -117,14 +117,16 @@ function mostrarPlayer(){
           <div class="d-flex justify-content-center">
             <div class="fifa-card">
               <img src="${j.foto}" alt="${j.nome}" style="max-width:200px; height:200px; object-fit:cover;">
-              <h5>${j.nome}</h5>
-              <p><strong>${j.posicao}</strong> - ${j.clube}</p>
-              <p>⚽ ${j.gols} | 🎯 ${j.assistencias} | 🏟️ ${j.jogos}</p>
-              <div class="d-flex justify-content-center gap-3">
-                <span class="fav-icon ${j.favorita ? "favorita" : ""}" onclick="toggleFavorita(${index})">★</span>
-                <button class="btn btn-warning btn-sm" onclick="editarPlayer(${index})">Editar</button>
-                <button class="btn btn-danger btn-sm" onclick="apagarPlayer(${index})">Apagar</button>
-              </div>
+              <div class="card-body my-3">
+                <h5 class="text-center">${j.nome}</h5>
+                <p class="text-center destaque">${j.posicao} - ${j.clube}</p>
+                <p class="text-center estatisticas"><i class="fa-solid fa-futbol"></i> ${j.gols} | <i class="fa-solid fa-handshake"></i> ${j.assistencias} | <i class="fa-solid fa-calendar"></i> ${j.jogos}</p>
+                <div class="d-flex justify-content-center gap-3">
+                  <span class="fav-icon ${j.favorita ? "favorita" : ""}" onclick="toggleFavorita(${index})"><i class="fa-solid fa-heart"></i></span>
+                  <button class="btn btn-warning btn-sm" onclick="editarPlayer(${index})"><i class="fa-solid fa-pen-to-square"></i>Editar</button>
+                  <button class="btn btn-danger btn-sm" onclick="apagarPlayer(${index})"><i class="fa-solid fa-trash"></i>Apagar</button>
+                </div>
+              </div>  
             </div>
           </div>
         `;

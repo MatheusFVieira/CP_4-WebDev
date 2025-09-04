@@ -1,6 +1,69 @@
-.fav-icon{ 
-    color: #000; cursor: pointer; 
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+body,
+html {
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  background-color: #4a1b86;
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: .1rem;
 }
-.fav-icon.favorita{ 
-    color: #dc3545;
+
+h1{
+    color: #fff;
+}
+
+.carousel-inner{
+    background-color: #fff;
+    margin: 5% 0;
+    padding: 5%;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon{
+    background-color: #9b59b6;
+}
+
+.fifa-card{
+    background-color: #4a1b86;
+    padding: 5%;
+    border-radius: 30px;
+    position: relative;
+}
+
+.fifa-card img{
+    border-radius:  15px 0;
+}
+
+.card-body h5{
+    color: #fff;
+}
+
+
+.card-body .destaque{
+    background-color: #9b59b6;
+    color: #fff;
+    border-radius: 30px;
+}
+
+.estatisticas{
+    color: #fff;
+}
+
+.estatisticas i{
+    color: #5c9925
+}
+
+.fav-icon {
+  color: #000;
+  cursor: pointer;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  font-size: 30px;
+}
+.fav-icon.favorita {
+  color: #dc3545;
 }
