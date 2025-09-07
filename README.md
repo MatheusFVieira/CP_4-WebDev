@@ -33,4 +33,4 @@ Nele, é possível *cadastrar, editar, excluir, favoritar e visualizar jogadoras
 ---
 
 ## 🌐 Acesse o GitHub pages
-🔗 [Clique aqui para acessar o GitHub pages](https://MatheusFVieira.github.io/CP_4-WebDev/)
+🔗 [Clique aqui para acessar o GitHub pages](https://matheusfvieira.github.io/CP_4-WebDev/)
